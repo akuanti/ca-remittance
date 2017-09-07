@@ -2,6 +2,7 @@ var Remittance = artifacts.require("./Remittance.sol");
 var HashLib = artifacts.require("./HashLib.sol");
 
 
+// TODO: update tests!
 contract('Remittance', function(accounts) {
   var remittance, hashlib;
 
